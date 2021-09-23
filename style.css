@@ -1,0 +1,27 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    background: #22234A;
+    background: -webkit-linear-gradient(top, #22234A, #AD629B);
+    background: -moz-linear-gradient(top, #22234A, #AD629B);
+    background: linear-gradient(to bottom, #22234A, #AD629B);
+}
+h1{
+    color: #090A48;
+    font-size: 100px;
+}
+.main{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+.main >h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head{
+    display: none;
+}
